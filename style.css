@@ -69,12 +69,16 @@ a {
 .head-text {
     color: #717276;
     margin: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: bpg;
 }
 
 .section0-1 {
 display: flex;
 justify-content: space-between;
 margin: 130px;
+margin-top: 40px;
 }
 
 .name {
@@ -97,4 +101,10 @@ margin: 130px;
     font-size: 24px;
     font-weight: 700;
     margin-top: 8px;
+}
+.section-image {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px;
+    margin-top: 40px;
 }
