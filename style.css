@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "alk";
+    src: url(alk_life.otf);
+}
+
+.nav-panel {
+    display: flex;
+    width: 1440px;
+    height: 200px;
+    background-color: #D9D9D9;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 130px;
+}
+
+.navbar-list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.list {
+    margin: 38px;
+    font-size: 24px;
+}
+
+a { 
+    color:  #717276;
+    text-decoration: none;
+    font-family: alk;
+    font-weight: 400;
+}
