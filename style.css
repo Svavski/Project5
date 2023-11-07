@@ -34,11 +34,11 @@ width: 1440px;
     font-size: 24px;
 }
 
-.active {
+.list.active {
     color: #A62B28;
 }
 
-a {
+.list {
     color: #717276;
     text-decoration: none;
     font-family: alk;
@@ -107,4 +107,36 @@ margin-top: 40px;
     justify-content: space-between;
     margin: 130px;
     margin-top: 40px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    width: 1440px;
+    height: 248px;
+    background-color:  #D9D9D9;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin: 8px;
+    font-weight: 400;
+    font-family: alk;
+    margin-left: 130px;
+}
+.social-media {
+    margin: 130px;
+    margin-top: 71px;
+    
 }
